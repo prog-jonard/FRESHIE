@@ -1,0 +1,65 @@
+body{
+    background-color: #000000;
+    overflow: hidden;
+}
+div{
+    display: inline-block;
+    text-align: center;
+    margin-left:10px;
+}
+.divholder{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top: 50px;
+   
+
+}
+.vid video{
+    object-fit: cover; 
+    transition: transform .5s;   
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+.nametag h1, p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: block;
+    font-family: sans-serif;
+}
+.caption{
+    color: white;
+}
+.vid:hover {
+    transform: scale(1.5);
+}
+.vid0:hover {
+    transform: scale(1.5);
+}
+.vid1:hover {
+    transform: translateY(50px);
+}
+.vid2:hover {
+    transform: translateX(50px);
+}
+.vid3:hover{
+    transform: translateY(-50px);
+}
+.vid4:hover{
+    transform: translate(50px, -50px);
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+.vid5:hover {
+  animation: bounce 0.5s ease;
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
