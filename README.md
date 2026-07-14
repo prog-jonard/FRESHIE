@@ -1,1 +1,1 @@
-Hi! This is the repository that I made for my first year. I created this repository to track my progress in school throughout the years tho not all I learned comes from school alone. Here are some of the codes that I did!
+Hi! This is the repository that I made for my first year. I created this repository to track my progress in school throughout the years tho not all I learned comes from school alone. Sorry if the files are a bit unorganized, just new here. Here are some of the codes that I did!
